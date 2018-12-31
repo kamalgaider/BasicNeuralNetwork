@@ -1,6 +1,7 @@
 import numpy as np
 
-
+#Here we have a 1 to 1 linear relationship between input's 1st column and output
+#So it works with a single neural layer
 input_data = np.array([[0,0,1],[1,1,1],[1,0,1],[0,1,1]])
 output_data = np.array([[0,1,1,0]]).T
 
